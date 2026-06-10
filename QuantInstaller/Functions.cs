@@ -26,12 +26,22 @@ namespace BrukerAXS.QuantInstaller
             string targetHTMLfolder = "c:\\ProgramData\\Bruker AXS Manuals";
 
             //Determine the path to install the solution files.
-            if (instrument.Contains("Series 1") || instrument.Contains("series 1") || instrument.Contains("Series 2") || instrument.Contains("series 2"))
+            if (instrument.IndexOf("Series 1", StringComparison.OrdinalIgnoreCase) >= 0
+                || instrument.IndexOf("Series 2", StringComparison.OrdinalIgnoreCase) >= 0
+                || instrument.IndexOf("Puma", StringComparison.OrdinalIgnoreCase) >= 0
+                || instrument.IndexOf("Jaguar", StringComparison.OrdinalIgnoreCase) >= 0)
             {
-                targetFolder = Registry.GetValue("HKEY_CURRENT_USER\\Software\\SOCABIM\\Spectra Plus", "Spectra Plus Path", null).ToString();
-                logFileFolder = Registry.GetValue("HKEY_CURRENT_USER\\Software\\SOCABIM\\Spectra Plus", "Spectra Plus Path", null).ToString();
+                object spectraPath = Registry.GetValue("HKEY_CURRENT_USER\\Software\\SOCABIM\\Spectra Plus", "Spectra Plus Path", null);
+                if (spectraPath == null)
+                {
+                    MessageBox.Show("The registry key for SPECTRA PLUS PATH does not exist. Please check your Spectra Plus installation. Please restart this installer when the problem is fixed.", "Registry Key Error");
+                    return;
+                }
 
-                if (targetFolder == null)
+                targetFolder = spectraPath.ToString();
+                logFileFolder = targetFolder;
+
+                if (string.IsNullOrWhiteSpace(targetFolder))
                 {
                     MessageBox.Show("The registry key for SPECTRA PLUS PATH does not exist. Please check your Spectra Plus installation. Please restart this installer when the problem is fixed.", "Registry Key Error");
                     return;

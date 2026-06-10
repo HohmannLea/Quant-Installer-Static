@@ -3,12 +3,12 @@
     <Style x:Key="LabelStyle"
            TargetType="Label">
         <Setter Property="Foreground"
-                Value="Black" />
+                Value="White" />
     </Style>
 
     <Style x:Key="TextBlockStyle"
            TargetType="TextBlock">
         <Setter Property="Foreground"
-                Value="Black" />
+            Value="White" />
     </Style>
 </ResourceDictionary>
