@@ -1,0 +1,2856 @@
+<?xml version="1.0"?>
+<ColumnsSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <QueryBase>Evaluation</QueryBase>
+  <Name>PETRO-QUANT QC Conostan</Name>
+  <IsDisplayingStatistics>false</IsDisplayingStatistics>
+  <QueryBaseStatistics>NoQuery</QueryBaseStatistics>
+  <CompoundRetrieval>preselection</CompoundRetrieval>
+  <FilterSpecification>
+    <FilterInfos>
+      <NameFilterInfo>
+        <ParameterName>specimen_name(specimen)</ParameterName>
+        <FilterString>QC Con S21&amp;K&amp;Sb 100ppm</FilterString>
+      </NameFilterInfo>
+      <NameFilterInfo>
+        <ParameterName>file_name(measurement_method)</ParameterName>
+        <FilterString>PETRO-QUANT</FilterString>
+      </NameFilterInfo>
+      <BitMaskFilter>
+        <ParameterName>BitMaskForValidationIsValid</ParameterName>
+        <BitMask>6</BitMask>
+      </BitMaskFilter>
+    </FilterInfos>
+    <FilteredCompoundsFromDatabase>false</FilteredCompoundsFromDatabase>
+    <ValidationType>validOrNotChecked</ValidationType>
+    <EvaluatedMeasurementsInclusion>always</EvaluatedMeasurementsInclusion>
+    <MeasuredMeasurementsInclusion>always</MeasuredMeasurementsInclusion>
+    <SubEvaluationInclusion>always</SubEvaluationInclusion>
+    <EvaluationData>always</EvaluationData>
+    <ExcludedSpecimen />
+    <CompoundFilterCheckStyle>all</CompoundFilterCheckStyle>
+    <CommentFilterCheckStyle>all</CommentFilterCheckStyle>
+    <AveragesDisplayMode>All</AveragesDisplayMode>
+  </FilterSpecification>
+  <Famililies>
+    <MeasurementFamily>XRD</MeasurementFamily>
+    <MeasurementFamily>XRF</MeasurementFamily>
+  </Famililies>
+  <IncludeIntensity>false</IncludeIntensity>
+  <IncludeConcentration>true</IncludeConcentration>
+  <IncludedCompoundComments />
+  <IncludedCompoundParameters />
+  <IsMaxCountEnabled>false</IsMaxCountEnabled>
+  <MaxCount>0</MaxCount>
+  <SequenceOfDetectedCompounds>orderOfCreation</SequenceOfDetectedCompounds>
+  <IsMultiRowCompoundView>false</IsMultiRowCompoundView>
+  <PositionedParameter>
+    <PositionedParameterInfo>
+      <Caption>Sample ID</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Sample ID</AlteredCaption>
+      <ColumnSize>196</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>0</LeftPlaces>
+      <RightPlaces>0</RightPlaces>
+      <IsUsingUnits>false</IsUsingUnits>
+      <Format>String</Format>
+      <Unit />
+      <DerivedResultType>parameter</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Application</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Application</AlteredCaption>
+      <ColumnSize>180</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>0</LeftPlaces>
+      <RightPlaces>0</RightPlaces>
+      <IsUsingUnits>false</IsUsingUnits>
+      <Format>String</Format>
+      <Unit />
+      <DerivedResultType>parameter</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Job ID</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Job ID</AlteredCaption>
+      <ColumnSize>70</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>0</LeftPlaces>
+      <RightPlaces>0</RightPlaces>
+      <IsUsingUnits>false</IsUsingUnits>
+      <Format>Integer</Format>
+      <Unit />
+      <DerivedResultType>parameter</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Start Time</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Start Time</AlteredCaption>
+      <ColumnSize>131</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>0</LeftPlaces>
+      <RightPlaces>0</RightPlaces>
+      <IsUsingUnits>false</IsUsingUnits>
+      <Format>Date and time</Format>
+      <Unit />
+      <DerivedResultType>parameter</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>End Time</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>End Time</AlteredCaption>
+      <ColumnSize>105</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>0</LeftPlaces>
+      <RightPlaces>0</RightPlaces>
+      <IsUsingUnits>false</IsUsingUnits>
+      <Format>Date and time</Format>
+      <Unit />
+      <DerivedResultType>parameter</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Runtime</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Runtime</AlteredCaption>
+      <ColumnSize>68</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>0</LeftPlaces>
+      <RightPlaces>0</RightPlaces>
+      <IsUsingUnits>false</IsUsingUnits>
+      <Format>Time span</Format>
+      <Unit />
+      <DerivedResultType>parameter</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Na</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Na</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Mg</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Mg</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Al</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Al</AlteredCaption>
+      <ColumnSize>143</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Si</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Si</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>P</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>P</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>S</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>S</AlteredCaption>
+      <ColumnSize>145</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>4</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>%</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Cl</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Cl</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>K</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>K</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Ca</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Ca</AlteredCaption>
+      <ColumnSize>145</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Ti</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Ti</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>V</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>V</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Cr</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Cr</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Mn</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Mn</AlteredCaption>
+      <ColumnSize>145</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Fe</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Fe</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Co</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Co</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Ni</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Ni</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Cu</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Cu</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Zn</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Zn</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>As</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>As</AlteredCaption>
+      <ColumnSize>143</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Br</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Br</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Zr</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Zr</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Mo</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Mo</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Ag</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Ag</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Cd</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Cd</AlteredCaption>
+      <ColumnSize>148</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>In</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>In</AlteredCaption>
+      <ColumnSize>143</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Sn</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Sn</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Sb</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Sb</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Ba</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Ba</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>W</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>W</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Tl</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Tl</AlteredCaption>
+      <ColumnSize>146</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Pb</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Pb</AlteredCaption>
+      <ColumnSize>145</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Bi</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Bi</AlteredCaption>
+      <ColumnSize>143</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>PPM</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>O</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>O</AlteredCaption>
+      <ColumnSize>133</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>3</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>%</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>CH2</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>CH2</AlteredCaption>
+      <ColumnSize>127</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>10</LeftPlaces>
+      <RightPlaces>3</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>%</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Specimen Density</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Specimen Density</AlteredCaption>
+      <ColumnSize>130</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>3</LeftPlaces>
+      <RightPlaces>10</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>kg/m³</Unit>
+      <Category />
+      <DerivedResultType>comment</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>false</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Density</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Detected Results</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption />
+      <ColumnSize>1</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>3</LeftPlaces>
+      <RightPlaces>10</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>Percent</Unit>
+      <Category />
+      <DerivedResultType>concentration</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>true</IsMultiColumnPlaceholder>
+      <UnitGroupDesired>Concentration</UnitGroupDesired>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Detected Intensities</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption>Detected Compounds</AlteredCaption>
+      <ColumnSize>1</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>3</LeftPlaces>
+      <RightPlaces>1</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>CPS/mA</Unit>
+      <DerivedResultType>intensity</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>true</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+    <PositionedParameterInfo>
+      <Caption>Default Values</Caption>
+      <Visible>true</Visible>
+      <AlteredCaption />
+      <ColumnSize>1</ColumnSize>
+      <IsInDefaultSettings>true</IsInDefaultSettings>
+      <LeftPlaces>3</LeftPlaces>
+      <RightPlaces>10</RightPlaces>
+      <IsUsingUnits>true</IsUsingUnits>
+      <Format>Fixed Decimals</Format>
+      <Unit>Percent</Unit>
+      <Category />
+      <DerivedResultType>calculation</DerivedResultType>
+      <VisibilityStyle>yes</VisibilityStyle>
+      <IsMultiColumnPlaceholder>true</IsMultiColumnPlaceholder>
+    </PositionedParameterInfo>
+  </PositionedParameter>
+  <Resultcolumns>
+    <DatabaseColumn>
+      <ResultType>parameter</ResultType>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>application_name</DatabaseParameter>
+      <ParameterKey>application_name(application)</ParameterKey>
+      <Table>application</Table>
+      <Caption>Application</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>parameter</ResultType>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>measurement_finished</DatabaseParameter>
+      <ParameterKey>measurement_finished(measurement)</ParameterKey>
+      <Table>measurement</Table>
+      <Caption>End Time</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>parameter</ResultType>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>measurement_id</DatabaseParameter>
+      <ParameterKey>measurement_id(measurement)</ParameterKey>
+      <Table>measurement</Table>
+      <Caption>Job ID</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>parameter</ResultType>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>specimen_name</DatabaseParameter>
+      <ParameterKey>specimen_name(specimen)</ParameterKey>
+      <Table>specimen</Table>
+      <Caption>Sample ID</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>parameter</ResultType>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>runningtime</DatabaseParameter>
+      <ParameterKey>runningtime(measurement)</ParameterKey>
+      <Table>measurement</Table>
+      <Caption>Runtime</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>parameter</ResultType>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>measurement_started</DatabaseParameter>
+      <ParameterKey>measurement_started(measurement)</ParameterKey>
+      <Table>measurement</Table>
+      <Caption>Start Time</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>8</AssociatedNumber>
+      <AssociatedFormula>O</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Oxygen</DatabaseParameter>
+      <ParameterKey>c(Oxygen)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>O</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>11</AssociatedNumber>
+      <AssociatedFormula>Na</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Sodium</DatabaseParameter>
+      <ParameterKey>c(Sodium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Na</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>12</AssociatedNumber>
+      <AssociatedFormula>Mg</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Magnesium</DatabaseParameter>
+      <ParameterKey>c(Magnesium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Mg</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>13</AssociatedNumber>
+      <AssociatedFormula>Al</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Aluminum</DatabaseParameter>
+      <ParameterKey>c(Aluminum)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Al</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>14</AssociatedNumber>
+      <AssociatedFormula>Si</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Silicon</DatabaseParameter>
+      <ParameterKey>c(Silicon)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Si</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>15</AssociatedNumber>
+      <AssociatedFormula>P</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Phosphorus</DatabaseParameter>
+      <ParameterKey>c(Phosphorus)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>P</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>16</AssociatedNumber>
+      <AssociatedFormula>S</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Sulfur</DatabaseParameter>
+      <ParameterKey>c(Sulfur)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>S</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>17</AssociatedNumber>
+      <AssociatedFormula>Cl</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Chlorine</DatabaseParameter>
+      <ParameterKey>c(Chlorine)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Cl</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>19</AssociatedNumber>
+      <AssociatedFormula>K</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Potassium</DatabaseParameter>
+      <ParameterKey>c(Potassium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>K</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>20</AssociatedNumber>
+      <AssociatedFormula>Ca</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Calcium</DatabaseParameter>
+      <ParameterKey>c(Calcium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Ca</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>22</AssociatedNumber>
+      <AssociatedFormula>Ti</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Titanium</DatabaseParameter>
+      <ParameterKey>c(Titanium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Ti</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>23</AssociatedNumber>
+      <AssociatedFormula>V</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Vanadium</DatabaseParameter>
+      <ParameterKey>c(Vanadium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>V</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>24</AssociatedNumber>
+      <AssociatedFormula>Cr</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Chromium</DatabaseParameter>
+      <ParameterKey>c(Chromium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Cr</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>25</AssociatedNumber>
+      <AssociatedFormula>Mn</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Manganese</DatabaseParameter>
+      <ParameterKey>c(Manganese)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Mn</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>26</AssociatedNumber>
+      <AssociatedFormula>Fe</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Iron</DatabaseParameter>
+      <ParameterKey>c(Iron)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Fe</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>27</AssociatedNumber>
+      <AssociatedFormula>Co</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Cobalt</DatabaseParameter>
+      <ParameterKey>c(Cobalt)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Co</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>28</AssociatedNumber>
+      <AssociatedFormula>Ni</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Nickel</DatabaseParameter>
+      <ParameterKey>c(Nickel)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Ni</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>29</AssociatedNumber>
+      <AssociatedFormula>Cu</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Copper</DatabaseParameter>
+      <ParameterKey>c(Copper)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Cu</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>30</AssociatedNumber>
+      <AssociatedFormula>Zn</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Zinc</DatabaseParameter>
+      <ParameterKey>c(Zinc)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Zn</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>33</AssociatedNumber>
+      <AssociatedFormula>As</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Arsenic</DatabaseParameter>
+      <ParameterKey>c(Arsenic)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>As</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>35</AssociatedNumber>
+      <AssociatedFormula>Br</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Bromine</DatabaseParameter>
+      <ParameterKey>c(Bromine)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Br</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>40</AssociatedNumber>
+      <AssociatedFormula>Zr</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Zirconium</DatabaseParameter>
+      <ParameterKey>c(Zirconium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Zr</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>42</AssociatedNumber>
+      <AssociatedFormula>Mo</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Molybdenum</DatabaseParameter>
+      <ParameterKey>c(Molybdenum)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Mo</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>47</AssociatedNumber>
+      <AssociatedFormula>Ag</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Silver</DatabaseParameter>
+      <ParameterKey>c(Silver)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Ag</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>48</AssociatedNumber>
+      <AssociatedFormula>Cd</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Cadmium</DatabaseParameter>
+      <ParameterKey>c(Cadmium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Cd</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>49</AssociatedNumber>
+      <AssociatedFormula>In</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Indium</DatabaseParameter>
+      <ParameterKey>c(Indium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>In</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>50</AssociatedNumber>
+      <AssociatedFormula>Sn</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Tin</DatabaseParameter>
+      <ParameterKey>c(Tin)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Sn</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>51</AssociatedNumber>
+      <AssociatedFormula>Sb</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Antimony</DatabaseParameter>
+      <ParameterKey>c(Antimony)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Sb</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>56</AssociatedNumber>
+      <AssociatedFormula>Ba</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Barium</DatabaseParameter>
+      <ParameterKey>c(Barium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Ba</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>74</AssociatedNumber>
+      <AssociatedFormula>W</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Tungsten</DatabaseParameter>
+      <ParameterKey>c(Tungsten)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>W</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>81</AssociatedNumber>
+      <AssociatedFormula>Tl</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Thallium</DatabaseParameter>
+      <ParameterKey>c(Thallium)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Tl</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>82</AssociatedNumber>
+      <AssociatedFormula>Pb</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Lead</DatabaseParameter>
+      <ParameterKey>c(Lead)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Pb</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>83</AssociatedNumber>
+      <AssociatedFormula>Bi</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Bismuth</DatabaseParameter>
+      <ParameterKey>c(Bismuth)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>Bi</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>concentration</ResultType>
+      <UnitGroup>Concentration</UnitGroup>
+      <AssociatedNumber>6</AssociatedNumber>
+      <AssociatedFormula>CH2</AssociatedFormula>
+      <DataTypeString>System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>Paraffin</DatabaseParameter>
+      <ParameterKey>c(Paraffin)</ParameterKey>
+      <Table>compound</Table>
+      <Caption>CH2</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+    <DatabaseColumn>
+      <ResultType>comment</ResultType>
+      <FormattingTypeName>PPM</FormattingTypeName>
+      <UnitGroup>Density</UnitGroup>
+      <AssociatedNumber>0</AssociatedNumber>
+      <DataTypeString>System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</DataTypeString>
+      <DatabaseParameter>f(Specimen(ρ))</DatabaseParameter>
+      <ParameterKey>f(Specimen(ρ))</ParameterKey>
+      <Table>field</Table>
+      <ColumnNavigation>
+        <ConnectionParameter>measurement</ConnectionParameter>
+      </ColumnNavigation>
+      <Caption>Specimen Density</Caption>
+      <IsOptional>false</IsOptional>
+      <IsUsingStateInformation>false</IsUsingStateInformation>
+    </DatabaseColumn>
+  </Resultcolumns>
+  <IsAscendingSort>false</IsAscendingSort>
+  <SortingParameterName>measurement_finished(measurement)</SortingParameterName>
+  <IsMultiLayer>false</IsMultiLayer>
+  <IsDetectingRepetitions>false</IsDetectingRepetitions>
+  <MultipleEvaluationDisplayMode>all</MultipleEvaluationDisplayMode>
+  <MultipleMeasurementsDisplayMode>all</MultipleMeasurementsDisplayMode>
+  <IsCombinedView>true</IsCombinedView>
+  <Visualization>
+    <Orientation>vertical</Orientation>
+    <PreferredDetailView>BrukerAXS.ResultPlugInViews.ViewPlugInRtf</PreferredDetailView>
+    <AvailableActions>
+      <string>BrukerAXS.Client.ResultsManager.XRFSpecificPlugIns.ExportPlugInCallXRFEvaluation</string>
+      <string>BrukerAXS.Client.ResultsManager.XRFSpecificPlugIns.XRFEvaluation.XrfAutomaticEvaluationPlugin</string>
+      <string>BrukerAXS.ResultsFileExport.RawFileExtractor</string>
+    </AvailableActions>
+    <DetailViewRatio>0.49896907216494846</DetailViewRatio>
+    <VerticalDetailViewRatio>0.43231899265477441</VerticalDetailViewRatio>
+    <DetailViewFormatting>individual</DetailViewFormatting>
+    <IsGridFilterActive>false</IsGridFilterActive>
+    <IsNavigationEnabled>false</IsNavigationEnabled>
+    <IsManualValidationAlllowed>true</IsManualValidationAlllowed>
+    <MaxResults>50</MaxResults>
+    <MaxResultsQuery>0</MaxResultsQuery>
+    <SortedParameterNameInView>measurement_started(measurement)</SortedParameterNameInView>
+    <IsAscendingSort>false</IsAscendingSort>
+    <IsAscendingSortInSub>false</IsAscendingSortInSub>
+    <StretchColumnsToWidth>no</StretchColumnsToWidth>
+    <StretchColumnsToWidthInnerGrid>no</StretchColumnsToWidthInnerGrid>
+    <IsHidingZeroConcentrationsInDetails>false</IsHidingZeroConcentrationsInDetails>
+    <ColorContainer>
+      <Colorings>
+        <ColoringInformation>
+          <ColoringName>CompoundsGlobal</ColoringName>
+          <Palette>
+            <Coloring>
+              <ID>Fe</ID>
+              <ColorID>-16777216</ColorID>
+            </Coloring>
+          </Palette>
+          <TwoDimOffset>0</TwoDimOffset>
+        </ColoringInformation>
+        <ColoringInformation>
+          <ColoringName>MeasurementScanCount</ColoringName>
+          <Palette>
+            <Coloring>
+              <ID>1</ID>
+              <ColorID>-16777216</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>2</ID>
+              <ColorID>-16744448</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>3</ID>
+              <ColorID>-65536</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>4</ID>
+              <ColorID>-16776961</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>5</ID>
+              <ColorID>-16711681</ColorID>
+            </Coloring>
+          </Palette>
+          <TwoDimOffset>0</TwoDimOffset>
+        </ColoringInformation>
+        <ColoringInformation>
+          <ColoringName>MeasurementBrmlCount</ColoringName>
+          <Palette>
+            <Coloring>
+              <ID>1</ID>
+              <ColorID>-16777216</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>2</ID>
+              <ColorID>-16744448</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>3</ID>
+              <ColorID>-65536</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>4</ID>
+              <ColorID>-16776961</ColorID>
+            </Coloring>
+            <Coloring>
+              <ID>5</ID>
+              <ColorID>-16711681</ColorID>
+            </Coloring>
+          </Palette>
+          <TwoDimOffset>0</TwoDimOffset>
+        </ColoringInformation>
+      </Colorings>
+    </ColorContainer>
+    <LimitDisplayStyleList>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>-1</IconIndex>
+        <DisplayStyleName>Not checked</DisplayStyleName>
+        <LimitTypeString>Undefined</LimitTypeString>
+        <Limit>Undefined</Limit>
+        <KeyValue>0</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>0</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>14</IconIndex>
+        <DisplayStyleName>Nominal</DisplayStyleName>
+        <LimitTypeString>Nominal</LimitTypeString>
+        <Limit>Nominal</Limit>
+        <KeyValue>1</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-4128832</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>11</IconIndex>
+        <DisplayStyleName>Low warning</DisplayStyleName>
+        <LimitTypeString>WarnLow</LimitTypeString>
+        <Limit>WarnLow</Limit>
+        <KeyValue>2</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-16256</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>12</IconIndex>
+        <DisplayStyleName>Low error</DisplayStyleName>
+        <LimitTypeString>ErrorLow</LimitTypeString>
+        <Limit>ErrorLow</Limit>
+        <KeyValue>3</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-32640</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>12</IconIndex>
+        <DisplayStyleName>Low alarm</DisplayStyleName>
+        <LimitTypeString>AlarmLow</LimitTypeString>
+        <Limit>AlarmLow</Limit>
+        <KeyValue>4</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-32640</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>11</IconIndex>
+        <DisplayStyleName>High warning</DisplayStyleName>
+        <LimitTypeString>WarnHigh</LimitTypeString>
+        <Limit>WarnHigh</Limit>
+        <KeyValue>5</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-16256</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>12</IconIndex>
+        <DisplayStyleName>High error</DisplayStyleName>
+        <LimitTypeString>ErrorHigh</LimitTypeString>
+        <Limit>ErrorHigh</Limit>
+        <KeyValue>6</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-32640</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>12</IconIndex>
+        <DisplayStyleName>High alarm</DisplayStyleName>
+        <LimitTypeString>AlarmHigh</LimitTypeString>
+        <Limit>AlarmHigh</Limit>
+        <KeyValue>7</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>-32640</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>-1</IconIndex>
+        <DisplayStyleName>Undefined</DisplayStyleName>
+        <LimitTypeString>Unknown</LimitTypeString>
+        <Limit>Unknown</Limit>
+        <KeyValue>8</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>0</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>-1</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>12</IconIndex>
+        <DisplayStyleName>Error</DisplayStyleName>
+        <LimitTypeString>Error</LimitTypeString>
+        <Limit>Error</Limit>
+        <KeyValue>9</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>0</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777216</TextColorId>
+        <BackColorId>16777215</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>11</IconIndex>
+        <DisplayStyleName>Uncertain</DisplayStyleName>
+        <LimitTypeString>Uncertain</LimitTypeString>
+        <Limit>Uncertain</Limit>
+        <KeyValue>16</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>0</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777077</TextColorId>
+        <BackColorId>-256</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>-1</IconIndex>
+        <DisplayStyleName>Overall Result Warning</DisplayStyleName>
+        <LimitTypeString>FullResultWarning</LimitTypeString>
+        <KeyValue>17</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>0</PrintBackColorId>
+      </LimitDisplayStyle>
+      <LimitDisplayStyle>
+        <TextColorId>-16777077</TextColorId>
+        <BackColorId>-24454</BackColorId>
+        <TextFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </TextFontData>
+        <IconIndex>-1</IconIndex>
+        <DisplayStyleName>Overall Result Error</DisplayStyleName>
+        <LimitTypeString>FullResultError</LimitTypeString>
+        <KeyValue>18</KeyValue>
+        <SuppressValue>false</SuppressValue>
+        <SuppressValuePrint>false</SuppressValuePrint>
+        <Disabled>false</Disabled>
+        <PrintFontData>
+          <FontName>Microsoft Sans Serif</FontName>
+          <FontSize>8.25</FontSize>
+          <FontStyle>Regular</FontStyle>
+        </PrintFontData>
+        <PrintTextColorId>-16777216</PrintTextColorId>
+        <PrintBackColorId>0</PrintBackColorId>
+      </LimitDisplayStyle>
+    </LimitDisplayStyleList>
+    <IsDefaultSizingNeeded>false</IsDefaultSizingNeeded>
+    <SortedParameterInCompounds />
+    <NumberOfNonSortedCompounds>0</NumberOfNonSortedCompounds>
+    <FontModificator>0</FontModificator>
+    <GroupedParams />
+  </Visualization>
+  <PostProcessing>
+    <TriggeredActions />
+    <Trigger>None</Trigger>
+    <EnableGrouping>false</EnableGrouping>
+  </PostProcessing>
+  <SampleLimits />
+  <SpecifiedFormats>
+    <Categories>
+      <FormattingCategory>
+        <Units>
+          <string>PPM</string>
+          <string>%</string>
+          <string>Conc. AUT</string>
+          <string>cps</string>
+          <string>kcps</string>
+          <string>g</string>
+          <string>mg</string>
+          <string>µg</string>
+          <string>kg</string>
+          <string>m</string>
+          <string>mm</string>
+          <string>cm</string>
+          <string>dm</string>
+          <string>µm</string>
+          <string>Pa</string>
+          <string>bar</string>
+          <string>kg/m³</string>
+          <string>kg/l</string>
+          <string>g/cm³</string>
+          <string>m²</string>
+          <string>mm²</string>
+          <string>cm²</string>
+          <string>dm²</string>
+          <string>m³</string>
+          <string>l</string>
+          <string>ml</string>
+        </Units>
+        <Name>Concentration</Name>
+        <Factor>1</Factor>
+        <DefaultUnit>Percent</DefaultUnit>
+      </FormattingCategory>
+      <FormattingCategory>
+        <Units>
+          <string>CPS/mA</string>
+          <string>cps</string>
+          <string>kcps</string>
+        </Units>
+        <Name>Intensity</Name>
+        <Factor>1</Factor>
+        <DefaultUnit>kCPS</DefaultUnit>
+      </FormattingCategory>
+      <FormattingCategory>
+        <Units>
+          <string>(none)</string>
+          <string>PPM</string>
+          <string>%</string>
+          <string>g</string>
+          <string>mg</string>
+          <string>µg</string>
+          <string>m</string>
+          <string>mm</string>
+          <string>cm</string>
+          <string>dm</string>
+          <string>µm</string>
+          <string>Pa</string>
+          <string>bar</string>
+          <string>kg/m³</string>
+          <string>kg/l</string>
+          <string>g/cm³</string>
+          <string>m²</string>
+          <string>dm²</string>
+          <string>cm²</string>
+          <string>mm²</string>
+          <string>m³</string>
+          <string>l</string>
+          <string>ml</string>
+          <string>Conc. AUT</string>
+          <string>kg</string>
+          <string>cps</string>
+          <string>kcps</string>
+        </Units>
+        <Name>Real Number</Name>
+        <Factor>1</Factor>
+        <DefaultUnit>(none)</DefaultUnit>
+      </FormattingCategory>
+    </Categories>
+    <ParameterTypes>
+      <ParameterType xsi:type="ParameterTypeString">
+        <TypeName>System.String</TypeName>
+        <Key>String</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+        <MaxSize>999</MaxSize>
+        <IsUcase>false</IsUcase>
+        <CasingType>None</CasingType>
+        <TrimLeft>false</TrimLeft>
+        <TrimRight>false</TrimRight>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeInteger">
+        <TypeName>System.Int32</TypeName>
+        <Key>Integer</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+        <DefaultUnit>(none)</DefaultUnit>
+        <Width>0</Width>
+        <TrailingZeroes>false</TrailingZeroes>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeBool">
+        <TypeName>System.Boolean</TypeName>
+        <Category>Boolean</Category>
+        <Key>Boolean</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+        <TrueString>True</TrueString>
+        <FalseString>False</FalseString>
+        <Display>images</Display>
+        <CustomStrings>false</CustomStrings>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeDateTime">
+        <TypeName>System.DateTime</TypeName>
+        <Key>Date and time</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+        <FormatString>g</FormatString>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeDateTime">
+        <TypeName>System.DateTime</TypeName>
+        <Key>Date Only</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+        <FormatString>d</FormatString>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeDateTime">
+        <TypeName>System.TimeSpan</TypeName>
+        <Key>Time span</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+        <FormatString>hh\:mm\:ss</FormatString>
+        <CultureSettings />
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeAuto">
+        <TypeName>System.Double</TypeName>
+        <Key>(auto)</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeMapped">
+        <TypeName>System.Int32</TypeName>
+        <Key>Mapped</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>false</IsUnitApplicable>
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeDouble">
+        <TypeName>System.Double</TypeName>
+        <Category>Real Number</Category>
+        <Key>Fixed Decimals</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>true</IsUnitApplicable>
+        <DefaultUnit>Percent</DefaultUnit>
+        <Units />
+        <Factor>1</Factor>
+        <Digits>10</Digits>
+        <Significants>3</Significants>
+        <DigitMode>Decimals</DigitMode>
+        <CultureSettings />
+      </ParameterType>
+      <ParameterType xsi:type="ParameterTypeDouble">
+        <TypeName>System.Double</TypeName>
+        <Category>Real Number</Category>
+        <Key>Significant Digits</Key>
+        <IsProtected>false</IsProtected>
+        <IsUnitApplicable>true</IsUnitApplicable>
+        <DefaultUnit>Percent</DefaultUnit>
+        <Units />
+        <Factor>1</Factor>
+        <Digits>10</Digits>
+        <Significants>5</Significants>
+        <DigitMode>Significants</DigitMode>
+        <CultureSettings />
+      </ParameterType>
+    </ParameterTypes>
+    <AutomaticFormat>
+      <Threshold>0.01</Threshold>
+      <BelowUnit>PPM</BelowUnit>
+      <AboveUnit>%</AboveUnit>
+      <AboveFormat>Fixed Decimals</AboveFormat>
+      <BelowFormat>Fixed Decimals</BelowFormat>
+      <Name>(auto)</Name>
+      <ThresholdUnit>Percent</ThresholdUnit>
+      <MinorSignificants>0</MinorSignificants>
+      <MajorSignificants>3</MajorSignificants>
+    </AutomaticFormat>
+    <ConcentrationFormat>Concentration</ConcentrationFormat>
+    <IntensityFormat>Intensity</IntensityFormat>
+    <NumberFormat>Real Number</NumberFormat>
+    <SpecialParameterKeys>
+      <string>job_status(measurement)</string>
+      <string>evaluationkind(evaluation)</string>
+      <string>is_valid(signature)[rawfile]</string>
+      <string>is_valid(signature)[evaluation]</string>
+      <string>is_valid(signature)[measurement_method]</string>
+      <string>is_valid(signature)[datafile(application)]</string>
+      <string>apptype(measurement_method)</string>
+      <string>status_flags(evaluation)</string>
+      <string>compound_type(compoundinfo)</string>
+      <string>application_family_id(evaluation)</string>
+    </SpecialParameterKeys>
+  </SpecifiedFormats>
+  <SpecifiedUnits>
+    <UnitSpecifier>
+      <Name>%</Name>
+      <Factor>100</Factor>
+      <UnitString>%</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Concentration</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>CPS/mA</Name>
+      <Factor>1</Factor>
+      <UnitString>CPS/mA</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Intensity</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>PPM</Name>
+      <Factor>1000000</Factor>
+      <UnitString>PPM</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Concentration</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>Conc. AUT</Name>
+      <Factor>0</Factor>
+      <UnitString>AUT</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Concentration</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>cps</Name>
+      <Factor>1</Factor>
+      <UnitString>cps</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Intensity</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>kcps</Name>
+      <Factor>0.001</Factor>
+      <UnitString>kcps</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Intensity</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>g</Name>
+      <Factor>1</Factor>
+      <UnitString>g</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Mass</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>mg</Name>
+      <Factor>1000</Factor>
+      <UnitString>mg</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Mass</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>µg</Name>
+      <Factor>1000000</Factor>
+      <UnitString>µg</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Mass</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>kg</Name>
+      <Factor>0.001</Factor>
+      <UnitString>kg</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Mass</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>m</Name>
+      <Factor>1</Factor>
+      <UnitString>m</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Length</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>mm</Name>
+      <Factor>1000</Factor>
+      <UnitString>mm</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Length</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>cm</Name>
+      <Factor>100</Factor>
+      <UnitString>cm</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Length</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>dm</Name>
+      <Factor>10</Factor>
+      <UnitString>dm</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Length</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>µm</Name>
+      <Factor>1000000</Factor>
+      <UnitString>µm</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Length</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>Pa</Name>
+      <Factor>1</Factor>
+      <UnitString>Pa</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Pressure</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>bar</Name>
+      <Factor>1E-05</Factor>
+      <UnitString>bar</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Pressure</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>kg/m³</Name>
+      <Factor>0.001</Factor>
+      <UnitString>kg/m³</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Density</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>kg/l</Name>
+      <Factor>1E-06</Factor>
+      <UnitString>kg/l</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Density</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>g/cm³</Name>
+      <Factor>1E-06</Factor>
+      <UnitString>g/cm³</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Density</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>m²</Name>
+      <Factor>1</Factor>
+      <UnitString>m²</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Area</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>mm²</Name>
+      <Factor>1000000</Factor>
+      <UnitString>mm²</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Area</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>cm²</Name>
+      <Factor>10000</Factor>
+      <UnitString>cm²</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Area</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>dm²</Name>
+      <Factor>100</Factor>
+      <UnitString>dm²</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Area</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>m³</Name>
+      <Factor>1</Factor>
+      <UnitString>m³</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Volume</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>l</Name>
+      <Factor>1000</Factor>
+      <UnitString>l</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Volume</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>ml</Name>
+      <Factor>1000000</Factor>
+      <UnitString>ml</UnitString>
+      <Precision>decimals</Precision>
+      <IsProtected>false</IsProtected>
+      <Group>Volume</Group>
+    </UnitSpecifier>
+    <UnitSpecifier>
+      <Name>(none)</Name>
+      <Factor>1</Factor>
+      <UnitString />
+      <Precision>decimals</Precision>
+      <IsProtected>true</IsProtected>
+    </UnitSpecifier>
+  </SpecifiedUnits>
+  <IntensitiesPlacement>underneath</IntensitiesPlacement>
+  <LimitChecking>online</LimitChecking>
+  <IsFormatWriteProtected>false</IsFormatWriteProtected>
+  <IsOverwriteProtected>false</IsOverwriteProtected>
+  <DetailSpecifications>
+    <DetailsSpecification>
+      <PlugInName>BrukerAXS.ResultPlugInViews.CompoundStatistics</PlugInName>
+      <PlugInConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DetailSpecConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ValuesForDisplay&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;CustomizedName&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Name&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;IncludeInGraphics&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Show&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Color&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Color&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Mean&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Average&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Deviation&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Deviation&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Minimum&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Min&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Maximum&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Max&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+  &lt;/ValuesForDisplay&gt;
+  &lt;SplitPercentage&gt;206&lt;/SplitPercentage&gt;
+  &lt;CompoundStats&gt;
+    &lt;SinglePlots&gt;true&lt;/SinglePlots&gt;
+    &lt;UseLimits&gt;false&lt;/UseLimits&gt;
+    &lt;PlottedKeys /&gt;
+    &lt;Fitting&gt;ThreeSigma&lt;/Fitting&gt;
+    &lt;ParameterName&gt;Concentration&lt;/ParameterName&gt;
+    &lt;XUnit&gt;EvaluationDate&lt;/XUnit&gt;
+    &lt;EnableMovingAverage&gt;false&lt;/EnableMovingAverage&gt;
+    &lt;AveragedValues&gt;3&lt;/AveragedValues&gt;
+    &lt;DrawThetaLines&gt;false&lt;/DrawThetaLines&gt;
+    &lt;MinY&gt;0&lt;/MinY&gt;
+    &lt;MaxY&gt;0&lt;/MaxY&gt;
+    &lt;UsedDrawingMode&gt;standard&lt;/UsedDrawingMode&gt;
+    &lt;ShowToday&gt;false&lt;/ShowToday&gt;
+  &lt;/CompoundStats&gt;
+  &lt;CompoundColor&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;Fe2O3&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;CaO&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;K2O&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;WO3&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;BaO&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;MoO3&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;SrO&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;Rb2O&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;ZnO&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;CuO&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;MnO&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;TiO2&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;As2O3&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;Sb2O3&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+    &lt;CompoundNameColorVisibility&gt;
+      &lt;Name&gt;Co3O4&lt;/Name&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+      &lt;ColorHelper&gt;-16777216&lt;/ColorHelper&gt;
+      &lt;MinValue&gt;0&lt;/MinValue&gt;
+      &lt;MaxValue&gt;0&lt;/MaxValue&gt;
+    &lt;/CompoundNameColorVisibility&gt;
+  &lt;/CompoundColor&gt;
+  &lt;Flipped&gt;false&lt;/Flipped&gt;
+&lt;/DetailSpecConfiguration&gt;</PlugInConfiguration>
+      <Palette>Local</Palette>
+    </DetailsSpecification>
+    <DetailsSpecification>
+      <PlugInName>ViewPlugInRawFile</PlugInName>
+      <PlugInConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DetailSpecConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ViewSettingCollection /&gt;
+  &lt;MonitoringDisplayMode&gt;false&lt;/MonitoringDisplayMode&gt;
+  &lt;UnitIndex&gt;0&lt;/UnitIndex&gt;
+  &lt;SplitPercentage&gt;0.1988555&lt;/SplitPercentage&gt;
+  &lt;TableRight&gt;false&lt;/TableRight&gt;
+  &lt;ValuesForDisplay&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Visible&lt;/Name&gt;
+      &lt;Width&gt;39&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Color&lt;/Name&gt;
+      &lt;Width&gt;54&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Measurement&lt;/Name&gt;
+      &lt;Width&gt;41&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Tube keV&lt;/Name&gt;
+      &lt;Width&gt;99&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Timestamp&lt;/Name&gt;
+      &lt;Width&gt;108&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Time per step&lt;/Name&gt;
+      &lt;Width&gt;76&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;LiveTime&lt;/Name&gt;
+      &lt;Width&gt;73&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;RealTime&lt;/Name&gt;
+      &lt;Width&gt;73&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Temperature&lt;/Name&gt;
+      &lt;Width&gt;73&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;SampleRotation&lt;/Name&gt;
+      &lt;Width&gt;85&lt;/Width&gt;
+      &lt;Caption&gt;SampleRotation&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Start&lt;/Name&gt;
+      &lt;Width&gt;68&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Stop&lt;/Name&gt;
+      &lt;Width&gt;62&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Stepsize&lt;/Name&gt;
+      &lt;Width&gt;53&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Unit&lt;/Name&gt;
+      &lt;Width&gt;63&lt;/Width&gt;
+      &lt;Caption /&gt;
+    &lt;/DetailTableColumn&gt;
+  &lt;/ValuesForDisplay&gt;
+  &lt;FitToWidth&gt;false&lt;/FitToWidth&gt;
+  &lt;RegionsOfInterest /&gt;
+  &lt;IndexOfSelectedRegion&gt;-1&lt;/IndexOfSelectedRegion&gt;
+  &lt;DisplayedLineNames&gt;
+    &lt;string&gt;Ka1&lt;/string&gt;
+    &lt;string&gt;Kb1&lt;/string&gt;
+    &lt;string&gt;La1&lt;/string&gt;
+    &lt;string&gt;Lb1&lt;/string&gt;
+    &lt;string&gt;Ma&lt;/string&gt;
+  &lt;/DisplayedLineNames&gt;
+  &lt;LineDisplayMode&gt;simple&lt;/LineDisplayMode&gt;
+  &lt;LineSelectionmode&gt;manual&lt;/LineSelectionmode&gt;
+  &lt;DisplayedElements /&gt;
+  &lt;EnableEvaluationData&gt;true&lt;/EnableEvaluationData&gt;
+  &lt;ViewMode&gt;allData&lt;/ViewMode&gt;
+  &lt;IsSmoothingEnabled&gt;false&lt;/IsSmoothingEnabled&gt;
+  &lt;IsXAxisCorrectionEnabled&gt;false&lt;/IsXAxisCorrectionEnabled&gt;
+  &lt;YScale&gt;eLinear&lt;/YScale&gt;
+  &lt;PrintConfig&gt;
+    &lt;MeasurementPropertyDisplayKind&gt;Row&lt;/MeasurementPropertyDisplayKind&gt;
+    &lt;GraphicsDisplay&gt;One&lt;/GraphicsDisplay&gt;
+    &lt;TableDisplay&gt;One&lt;/TableDisplay&gt;
+    &lt;TableAsLegend&gt;false&lt;/TableAsLegend&gt;
+  &lt;/PrintConfig&gt;
+  &lt;YUnit&gt;Count&lt;/YUnit&gt;
+  &lt;PreferredRawFileTab&gt;Tab2D&lt;/PreferredRawFileTab&gt;
+  &lt;DisplaySettings&gt;
+    &lt;EvaluationEnabled&gt;true&lt;/EvaluationEnabled&gt;
+    &lt;LineDisplayPropertiesList&gt;
+      &lt;LineDisplayProperties&gt;
+        &lt;Key&gt;Measurement&lt;/Key&gt;
+        &lt;Visible&gt;true&lt;/Visible&gt;
+        &lt;ColorARGB xsi:nil="true" /&gt;
+        &lt;ColoringType&gt;Palette&lt;/ColoringType&gt;
+        &lt;PanelNo&gt;0&lt;/PanelNo&gt;
+      &lt;/LineDisplayProperties&gt;
+    &lt;/LineDisplayPropertiesList&gt;
+    &lt;StickDisplay&gt;Stick&lt;/StickDisplay&gt;
+    &lt;SplitPercentage&gt;0.1988555&lt;/SplitPercentage&gt;
+    &lt;SplitPercentagePanel2&gt;0&lt;/SplitPercentagePanel2&gt;
+    &lt;TableOrientationRight&gt;false&lt;/TableOrientationRight&gt;
+    &lt;ValuesForDisplay /&gt;
+  &lt;/DisplaySettings&gt;
+  &lt;BottomLinePosition xsi:nil="true" /&gt;
+&lt;/DetailSpecConfiguration&gt;</PlugInConfiguration>
+      <Palette>Local</Palette>
+    </DetailsSpecification>
+    <DetailsSpecification>
+      <PlugInName>BrukerAXS.Client.ResultsManager.XRFSpecificPlugIns.ViewFilePlugInText</PlugInName>
+      <PlugInConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DetailSpecConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ValuesForDisplay&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;IsShown&lt;/Name&gt;
+      &lt;Width&gt;40&lt;/Width&gt;
+      &lt;Caption&gt;Show&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DisplayColor&lt;/Name&gt;
+      &lt;Width&gt;83&lt;/Width&gt;
+      &lt;Caption&gt;Display Color&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;JobID&lt;/Name&gt;
+      &lt;Width&gt;56&lt;/Width&gt;
+      &lt;Caption&gt;Job ID&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;RangeNumber&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Range No&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;SumIntensity&lt;/Name&gt;
+      &lt;Width&gt;103&lt;/Width&gt;
+      &lt;Caption&gt;Sum Intensity (cps)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DisplayName&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Line&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;TubeVoltage&lt;/Name&gt;
+      &lt;Width&gt;56&lt;/Width&gt;
+      &lt;Caption&gt;Tube (kV)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;TubeCurrent&lt;/Name&gt;
+      &lt;Width&gt;60&lt;/Width&gt;
+      &lt;Caption&gt;Tube (mA)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Filter&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Filter&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Collimator&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Collimator (°)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;CrystalName&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Crystal&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;TwoThetaPositions&lt;/Name&gt;
+      &lt;Width&gt;167&lt;/Width&gt;
+      &lt;Caption&gt;2Theta Positions (°)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Mask&lt;/Name&gt;
+      &lt;Width&gt;61&lt;/Width&gt;
+      &lt;Caption&gt;Mask (mm)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DetectorName&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Detector&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DetectorProfile&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Detector Profile&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Atmosphere&lt;/Name&gt;
+      &lt;Width&gt;68&lt;/Width&gt;
+      &lt;Caption&gt;Atmosphere&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;LLD&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;LLD&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;ULD&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;ULD&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+  &lt;/ValuesForDisplay&gt;
+  &lt;FixedValues&gt;
+    &lt;string&gt;IsShown&lt;/string&gt;
+    &lt;string&gt;DisplayColor&lt;/string&gt;
+    &lt;string&gt;JobID&lt;/string&gt;
+  &lt;/FixedValues&gt;
+  &lt;SplitPercentage&gt;245&lt;/SplitPercentage&gt;
+  &lt;IsXKev&gt;false&lt;/IsXKev&gt;
+  &lt;IsXReversed&gt;false&lt;/IsXReversed&gt;
+  &lt;Crystal&gt;LiF200&lt;/Crystal&gt;
+  &lt;CrossEnabled&gt;false&lt;/CrossEnabled&gt;
+  &lt;GridEnabled&gt;false&lt;/GridEnabled&gt;
+  &lt;YScale&gt;eLinear&lt;/YScale&gt;
+  &lt;XScale&gt;eLinear&lt;/XScale&gt;
+  &lt;YUnit&gt;Count&lt;/YUnit&gt;
+  &lt;HighlightedElements /&gt;
+  &lt;PrintOptions&gt;
+    &lt;MeasurementPropertyDisplayKind&gt;Row&lt;/MeasurementPropertyDisplayKind&gt;
+    &lt;GraphicsDisplay&gt;One&lt;/GraphicsDisplay&gt;
+    &lt;TableDisplay&gt;One&lt;/TableDisplay&gt;
+  &lt;/PrintOptions&gt;
+&lt;/DetailSpecConfiguration&gt;</PlugInConfiguration>
+      <Palette>Local</Palette>
+    </DetailsSpecification>
+    <DetailsSpecification>
+      <PlugInName>ExportPlugIn2CSV</PlugInName>
+      <PlugInConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CSVExportProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ColumnSeparator&gt;TAB&lt;/ColumnSeparator&gt;
+  &lt;HeaderDrawStyle&gt;once&lt;/HeaderDrawStyle&gt;
+  &lt;WriteStyle&gt;NewFile&lt;/WriteStyle&gt;
+  &lt;FileName /&gt;
+  &lt;Template /&gt;
+  &lt;PathName /&gt;
+  &lt;IncludeInnerData&gt;true&lt;/IncludeInnerData&gt;
+  &lt;ReplaceContents&gt;false&lt;/ReplaceContents&gt;
+&lt;/CSVExportProperties&gt;</PlugInConfiguration>
+      <Palette>Local</Palette>
+    </DetailsSpecification>
+    <DetailsSpecification>
+      <PlugInName>BrukerAXS.Client.ResultsManager.XRFSpecificPlugIns.VerboseReport</PlugInName>
+      <PlugInConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DetailSpecConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ReportProperties&gt;
+    &lt;IncludeSingleCompoundViews&gt;true&lt;/IncludeSingleCompoundViews&gt;
+    &lt;IncludeSingleRangeGraphics&gt;false&lt;/IncludeSingleRangeGraphics&gt;
+    &lt;IncludeScanWithSingleCompound&gt;false&lt;/IncludeScanWithSingleCompound&gt;
+    &lt;IncludeZoomedPeakWithSingleCompound&gt;true&lt;/IncludeZoomedPeakWithSingleCompound&gt;
+    &lt;IncludeCompoundOverview&gt;true&lt;/IncludeCompoundOverview&gt;
+    &lt;IncludeSampleInformation&gt;true&lt;/IncludeSampleInformation&gt;
+    &lt;IncludeSingleRangeViews&gt;true&lt;/IncludeSingleRangeViews&gt;
+    &lt;IncludeJoinedRangeView&gt;true&lt;/IncludeJoinedRangeView&gt;
+    &lt;IncludeMeasurementConditions&gt;false&lt;/IncludeMeasurementConditions&gt;
+    &lt;CompoundParameterKeys&gt;
+      &lt;string&gt;AtomicNumber&lt;/string&gt;
+      &lt;string&gt;Formula&lt;/string&gt;
+      &lt;string&gt;Concentration&lt;/string&gt;
+      &lt;string&gt;LineID&lt;/string&gt;
+    &lt;/CompoundParameterKeys&gt;
+    &lt;SampleInformationKeys&gt;
+      &lt;string&gt;specimen_name(specimen)&lt;/string&gt;
+      &lt;string&gt;application_name(application)&lt;/string&gt;
+      &lt;string&gt;measurement_started(measurement)&lt;/string&gt;
+      &lt;string&gt;f(Preparation)&lt;/string&gt;
+      &lt;string&gt;evaluationtime(evaluation)&lt;/string&gt;
+    &lt;/SampleInformationKeys&gt;
+    &lt;OverviewParameterKeys&gt;
+      &lt;string&gt;AtomicNumber&lt;/string&gt;
+      &lt;string&gt;Formula&lt;/string&gt;
+      &lt;string&gt;Concentration&lt;/string&gt;
+      &lt;string&gt;LineID&lt;/string&gt;
+    &lt;/OverviewParameterKeys&gt;
+    &lt;MeasurementConditionKeys /&gt;
+    &lt;SamplePropertyHeader&gt;Sample Information&lt;/SamplePropertyHeader&gt;
+    &lt;RangePropertyHeader&gt;Measurement Conditions&lt;/RangePropertyHeader&gt;
+    &lt;CompoundsPropertyHeader&gt;Compound Overview&lt;/CompoundsPropertyHeader&gt;
+    &lt;LineDetailsHeader&gt;Line Details&lt;/LineDetailsHeader&gt;
+    &lt;IndividualRangeGraphicsHeader&gt;Individual Range Graphics&lt;/IndividualRangeGraphicsHeader&gt;
+    &lt;JoinedRangeGraphicsHeader&gt;All ranges&lt;/JoinedRangeGraphicsHeader&gt;
+    &lt;ReportPartsKeys&gt;
+      &lt;string&gt;SampleParams&lt;/string&gt;
+      &lt;string&gt;MeasurementConditions&lt;/string&gt;
+      &lt;string&gt;CompoundResultsTable&lt;/string&gt;
+      &lt;string&gt;LineDetails&lt;/string&gt;
+      &lt;string&gt;IndividualRangeGraphics&lt;/string&gt;
+      &lt;string&gt;JoinedRangesGraphics&lt;/string&gt;
+    &lt;/ReportPartsKeys&gt;
+    &lt;LineDetailGraphicsPerLine&gt;3&lt;/LineDetailGraphicsPerLine&gt;
+    &lt;IndividualRangeGraphicsPerLine&gt;3&lt;/IndividualRangeGraphicsPerLine&gt;
+    &lt;IncludeSamplePicture&gt;false&lt;/IncludeSamplePicture&gt;
+    &lt;RangesFir&gt;onePerPage&lt;/RangesFir&gt;
+    &lt;RangeViewUnit&gt;kev&lt;/RangeViewUnit&gt;
+    &lt;CompoundViewUnit&gt;theta&lt;/CompoundViewUnit&gt;
+    &lt;DefaultYScaling&gt;Quadratic&lt;/DefaultYScaling&gt;
+    &lt;DefaultXScaling&gt;Linear&lt;/DefaultXScaling&gt;
+    &lt;OverviewTableParameters&gt;
+      &lt;VerticalColumnSizing&gt;automatic&lt;/VerticalColumnSizing&gt;
+      &lt;FirstWidth&gt;25&lt;/FirstWidth&gt;
+      &lt;OtherWidth&gt;75&lt;/OtherWidth&gt;
+      &lt;AutoscaleWidth&gt;true&lt;/AutoscaleWidth&gt;
+      &lt;AutoSizeColumns&gt;true&lt;/AutoSizeColumns&gt;
+      &lt;MaximumAverageColWidth&gt;0&lt;/MaximumAverageColWidth&gt;
+      &lt;ColumnsInEachRow&gt;0&lt;/ColumnsInEachRow&gt;
+      &lt;IsHeaderShaded&gt;true&lt;/IsHeaderShaded&gt;
+      &lt;IsHeaderHidden&gt;false&lt;/IsHeaderHidden&gt;
+      &lt;NumberOfMarkedStartColumns&gt;0&lt;/NumberOfMarkedStartColumns&gt;
+      &lt;HorizontalLineDrawingMode&gt;All&lt;/HorizontalLineDrawingMode&gt;
+      &lt;VerticalLineDrawingMode&gt;All&lt;/VerticalLineDrawingMode&gt;
+      &lt;IsPropertyList&gt;false&lt;/IsPropertyList&gt;
+      &lt;EmptyValueBuildStyle&gt;ignore&lt;/EmptyValueBuildStyle&gt;
+      &lt;RowFittingStrategy&gt;none&lt;/RowFittingStrategy&gt;
+      &lt;AllowTableSplitting&gt;true&lt;/AllowTableSplitting&gt;
+      &lt;MakeVertical&gt;false&lt;/MakeVertical&gt;
+      &lt;DistanceBetweenSplitTable&gt;15&lt;/DistanceBetweenSplitTable&gt;
+      &lt;Wrapping&gt;unlimited&lt;/Wrapping&gt;
+      &lt;VerticalHeaders&gt;false&lt;/VerticalHeaders&gt;
+      &lt;SplitRowsOnMinWidthViolation&gt;false&lt;/SplitRowsOnMinWidthViolation&gt;
+      &lt;HeaderOccurence&gt;table&lt;/HeaderOccurence&gt;
+      &lt;DataFontData&gt;
+        &lt;FontName&gt;Arial&lt;/FontName&gt;
+        &lt;FontSize&gt;11&lt;/FontSize&gt;
+        &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;/DataFontData&gt;
+      &lt;HeaderFontData&gt;
+        &lt;FontName&gt;Arial&lt;/FontName&gt;
+        &lt;FontSize&gt;11&lt;/FontSize&gt;
+        &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;/HeaderFontData&gt;
+    &lt;/OverviewTableParameters&gt;
+  &lt;/ReportProperties&gt;
+  &lt;ValuesForDisplay&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;AtomicNumber&lt;/Name&gt;
+      &lt;Width&gt;35&lt;/Width&gt;
+      &lt;Caption&gt;Z&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Formula&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Formula&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Concentration&lt;/Name&gt;
+      &lt;Width&gt;95&lt;/Width&gt;
+      &lt;Caption&gt;Concentration&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Atmosphere&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Atmosphere&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;EvaluationMode&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Evaluation Mode&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;NetIntensity&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;I net(cps/mA)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;RawIntensity&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;I gross(cps/mA)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;LineID&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Line Name&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;BackgroundIntensity&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;I bkg(cps/mA)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Mask&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Mask(mm)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;Filter&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Filter&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;AnalyzedLayer&lt;/Name&gt;
+      &lt;Width&gt;99&lt;/Width&gt;
+      &lt;Caption&gt;Information Depth(cm)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;LLD&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;LLD(%)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DriftCorrectionFactor&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;DC Factor&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;PeakPosition&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Peak Position(keV)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;TubeVoltage&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Voltage(kV)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DetectorProfile&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Detector Profile&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;DetectorName&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Detector&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;TubeCurrent&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Current(mA)&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+    &lt;DetailTableColumn&gt;
+      &lt;Name&gt;CrystalName&lt;/Name&gt;
+      &lt;Width&gt;75&lt;/Width&gt;
+      &lt;Caption&gt;Crystal&lt;/Caption&gt;
+    &lt;/DetailTableColumn&gt;
+  &lt;/ValuesForDisplay&gt;
+  &lt;FixedValues&gt;
+    &lt;string&gt;AtomicNumber&lt;/string&gt;
+    &lt;string&gt;Formula&lt;/string&gt;
+    &lt;string&gt;Concentration&lt;/string&gt;
+  &lt;/FixedValues&gt;
+  &lt;SplitPercentage&gt;205&lt;/SplitPercentage&gt;
+  &lt;IsXKev&gt;false&lt;/IsXKev&gt;
+  &lt;YScale&gt;eSquareRoot&lt;/YScale&gt;
+  &lt;XScale&gt;eLinear&lt;/XScale&gt;
+  &lt;YUnit&gt;KCPS&lt;/YUnit&gt;
+  &lt;CrossEnabled&gt;false&lt;/CrossEnabled&gt;
+  &lt;GridEnabled&gt;false&lt;/GridEnabled&gt;
+&lt;/DetailSpecConfiguration&gt;</PlugInConfiguration>
+      <Palette>Local</Palette>
+    </DetailsSpecification>
+    <DetailsSpecification>
+      <PlugInName>RawFileExtractor</PlugInName>
+      <PlugInConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;BrmlExportProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;GenerationMode&gt;GeneratedFromPlaceholders&lt;/GenerationMode&gt;
+  &lt;GenerationString&gt;[measurement_id(measurement)][specimen_name(specimen)].brml&lt;/GenerationString&gt;
+  &lt;UsePresetPath&gt;false&lt;/UsePresetPath&gt;
+  &lt;Path&gt;C:\ProgramData\Bruker AXS\Experiments&lt;/Path&gt;
+&lt;/BrmlExportProperties&gt;</PlugInConfiguration>
+      <Palette>Local</Palette>
+    </DetailsSpecification>
+  </DetailSpecifications>
+  <DetailSpecificationsPostProcessing />
+  <PrintoutConfig xsi:type="PrintoutConfigRtfFile">
+    <Kind>rtftext</Kind>
+    <NumberOfResultsUsedOnAuto>1</NumberOfResultsUsedOnAuto>
+    <IsUsingIndividualFormatting>false</IsUsingIndividualFormatting>
+    <PositionedParameter />
+    <QueryPrintComment>false</QueryPrintComment>
+    <RtfText>{\rtf1\deff0 \stshfdbch3\stshfloch2\stshfhich2\stshfbi1{\fonttbl{\f0 Calibri;}{\fbiminor\f1 Times New Roman;}{\fhiminor\f2 Calibri;}{\fdbminor\f3 Times New Roman;}}{\colortbl ;\red0\green0\blue255 ;}{\*\defchp \fcs1\f1\fcs1\f1\hich\af2\loch\af2\dbch\af3\cgrid1\fs22}{\*\defpap \widctlpar}{\stylesheet {\ql\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22 Normal;}{\*\cs1\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22 Default Paragraph Font;}{\*\cs2\sbasedon1\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22 Line Number;}{\*\cs3\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\ul\cf1 Hyperlink;}{\*\ts4\tsrowd\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\ql\tscellpaddfl3\tscellpaddl108\tscellpaddfb3\tscellpaddfr3\tscellpaddr108\tscellpaddft3\tsvertalt\cltxlrtb Normal Table;}{\*\ts5\tsrowd\sbasedon4\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\ql\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\tscellpaddfl3\tscellpaddl108\tscellpaddfr3\tscellpaddr108\tsvertalt\cltxlrtb Table Simple 1;}}{\*\listoverridetable}{\*\protusertbl{unlocked}}{\*\generator DevExpress Office File API/22.2.7.0}{\info{\author Florenz, Markus}{\creatim\yr2024\mo1\dy9\hr17\min8}{\version1}}\nouicompat\htmautsp\splytwnine\alntblind\expshrtn\spltpgpar\nogrowautofit\utinl\nobrkwrptbl\ftnlytwnine\notcvasp\dntblnsbdb\newtblstyruls\formshade\sectd\endnhere\trowd\irow0\irowband-1\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\*\protstart 0100010000000000}{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Sample}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Sample ID:\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Sample ID:\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Specification Range}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow0\irowband-1\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow1\irowband0\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Date}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:End Time:\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:End Time:\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow1\irowband0\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow2\irowband1\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Calibration}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Application:\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Application:\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow2\irowband1\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow3\irowband2\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Na (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Na (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Na (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 80 - 120}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow3\irowband2\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow4\irowband3\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Mg (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Mg (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Mg (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 85 - 115}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow4\irowband3\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow5\irowband4\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Al (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Al (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Al (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow5\irowband4\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow6\irowband5\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Si (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Si (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Si (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow6\irowband5\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow7\irowband6\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 P (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:P (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:P (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow7\irowband6\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow8\irowband7\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 K (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:K (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:K (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow8\irowband7\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow9\irowband8\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Ca (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Ca (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Ca (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow9\irowband8\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow10\irowband9\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Ti (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Ti (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Ti (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow10\irowband9\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow11\irowband10\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 V (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:V (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:V (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow11\irowband10\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow12\irowband11\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Cr (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Cr (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Cr (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow12\irowband11\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow13\irowband12\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Mn (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Mn (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Mn (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow13\irowband12\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow14\irowband13\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Fe (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Fe (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Fe (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow14\irowband13\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow15\irowband14\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Ni (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Ni (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Ni (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow15\irowband14\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow16\irowband15\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Cu (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Cu (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Cu (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow16\irowband15\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow17\irowband16\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Zn (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Zn (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Zn (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow17\irowband16\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow18\irowband17\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Mo (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Mo (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Mo (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow18\irowband17\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow19\irowband18\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Ag (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Ag (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Ag (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 84 - 116}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow19\irowband18\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow20\irowband19\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Cd (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Cd (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Cd (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 84 - 116}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow20\irowband19\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow21\irowband20\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Sn (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Sn (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Sn (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow21\irowband20\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow22\irowband21\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Sb (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Sb (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Sb (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow22\irowband21\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow23\irowband22\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Ba (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Ba (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Ba (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow23\irowband22\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\trowd\irow24\irowband23\lastrow\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 Pb (PPM)}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\field{\*\fldinst{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 DOCVARIABLE "PAR:Pb (PPM):\{?*\}"}}{\fldrslt{\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cf0 [PAR:Pb (PPM):\{?*\}]}}}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\pard\plain\qc\intbl\widctlpar\yts5{\fcs1\af1\alang1031\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\lang1031\langfe1031\langnp1031\langfenp1031\cf0 89 - 111}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\cell\trowd\irow24\irowband23\lastrow\ts5\trgaph108\trbrdrt\brdrs\brdrw10\trbrdrl\brdrs\brdrw10\trbrdrb\brdrs\brdrw10\trbrdrr\brdrs\brdrw10\trbrdrh\brdrs\brdrw10\trbrdrv\brdrs\brdrw10\trleft-108\trftsWidth1\trpaddfl3\trpaddl108\trpaddfr3\trpaddr108\tbllkhdrcols\tbllkhdrrows\tbllknocolband\tblindtype3\tblind0\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2530\clpadfr3\clpadr108\clpadft3\clpadt108\cellx2422\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth3156\clpadfr3\clpadr108\clpadft3\clpadt108\cellx5578\clvertalc\clbrdrt\brdrs\brdrw10\clbrdrl\brdrs\brdrw10\clbrdrb\brdrs\brdrw10\clbrdrr\brdrs\brdrw10\cltxlrtb\clftsWidth3\clwWidth2940\clpadfr3\clpadr108\clpadft3\clpadt108\cellx8518\row\pard\plain\ql\widctlpar{\*\protend 0100010000000000}\fcs1\af1\ltrch\fcs0\hich\af2\dbch\af3\loch\f2\fs22\par{\*\themedata 
+504b03041400020008000000210201159325ae000000270100000b0000005f72656c732f2e72656c738d8f310ec2300c45af1279a76e1910424dbbb07460415c204a9d34a24da224457036068ec415c8d82206164b5ffe7efffbfd7cd5ed7d1ad98d4234
+ce72a88a121859e97a63358739a9cd1edaa63ed3285276c4c1f8c8f2898d1c8694fc0131ca8126110be7c9e68d72611229cba0d10b79159a705b963b0c4b06ac99aceb3984aeaf805d1e9efe613ba58ca4a393f34436fd88f87264b2089a12879499848b
+791236b70c454e00864d8dab779b0f504b0304140002000800000021027f624aeb730000007b0000001c0000007468656d652f7468656d652f7468656d654d616e616765722e786d6c0d8cc10d83300c005789fc2f4e7954554460820e61810991888392
+b465b73e3a5257a89fa7d3ddeff31da633ede6c5a5c62c1eae9d05c332e7254af0f06cebe50ed338906b1b277e9050e062b491eac8c3d6dae110ebac966a970f16756b2e899a6209b8147aeb2bedd85b7bc34451c0e0f807504b03041400020008000000
+21020a5d705ea60000000c010000270000007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c738dcf3d0ec2300c05e0ab44dea95b068450d32e2c5d11178852278d687e94a408cec6c091b8021113951818
+9fecf7597e3d9e6d7fb333bb524cc63b0e4d55032327fd689ce6b064b5d943dfb5279a452e1b693221b1527189c39473382026399115a9f2815c99281fadc825468d41c88bd084dbbade61fc36606db261e41087b10176be07fac7f64a1949472f174b2e
+ff3881b974a980226aca1c3eb1a90a030cbb16573f756f504b0304140002000800000021026d52debf9f050000fd1b0000160000007468656d652f7468656d652f7468656d65312e786d6ced594f6fdb3614ff2a84eead2c5b729da06e113b76bb356983
+c4ebd0232dd3126b4a14483aa96f437b1c30605837ec3260b71d866d015a608765d887c9d661eb807c8551b42c5136d5244d566c587cb045eaf7deeffde17b22e5939f7eb979fb4944c03e621cd3b86d39d76b1640b14f47380edad6548cafb5acdbb76e
+c27511a20801098ef93a6c5ba110c9ba6d735f4e437e9d262896f7c6944550c8210bec118307524944ec7aadd6b42388630bc430426debc1788c7d0406a94a2b57de23f22b163c9df009dbf315a32ea1b0a38993fef019ef1206f621695b9267440f06e8
+89b000815cc81b6daba63e16b06fddb47329222a8435c1befa2c043389d1a4ae045930cc259dbebb7663b360a8cf195681bd5eafdb730a8d0a017d5f7aebac80dd7ecbe9e45a35d4fc72557bb7e6d5dc25018da1b122b0d6e974bcb5b240a3107057045a
+b5a6bb512f0bb88580b7ea4367a3db6d9605bc42a0b922d0bfb1d6749704142a24389eacc0d3cc1629ca31634aee1af12d896fe56ba180d9da4a9b2b8845d5ba8be063cafa12a0b20c058e819825680c7d89ebc268c830540c701d41ed5636e7f3d5b994
+0e709fe144b4adf713280ba4c09c1c7d7772f4029c1c1d1e3f7d79fcf4c7e367cf8e9ffe6092bc0be340977cfdcda77f7df511f8f3c5d7af9f7f5e21c07581dfbefff8d79f3fab400a1df9ea8bc3df5f1ebefaf2933fbe7d6ec26f3038d4f1031c210eee
+a303b04ba3d43f03051ab2738a0c42884b2230945013b227c212f2fe0c1223b083ca317cc8645b3022ef4c1f97ecdd0bd9546013f25e189590db94920e65669fee293acda7691c54f0b3a90edc8570df48df5dca726f9ac8958d8d4abb212a99ba4364e2
+61806224407a8f4e1032c93dc2b814df6dec33cae95880471874203607668087c22c751747324133a38d32eba5086d3f041d4a8c049b68bf0c95150289512922a568de81530123b3d530223a740b8ad068e8de8cf9a5c07321931e2042416f8438370a3d
+60b392c9f7a06c51e615b04d665119ca049e18a15b90521dba4927dd104689d96e1c873af83d3e912b16821d2acc76d072cda4639910185767fe2146e29cc5fe010e42f36249ef4c99b146102dd7e88c8c218a170f80522b8f70fca6be4eb06cec577d7d
+a9af6fc8879db19e96bb7925f03fdac337e134de41699d5cb5f0ab167ed5c2df50e1ff44e32e7ab5adefd6959ea872eb3ec684ec8919415b5c75792e5d1cf5e5a41a28a1fca89084f272c15702060caa6bc0a8f8108b702f8489e4711445c033dd010709
+e5f28862552a57275e2cbd56735e7e4c957028b6e9683edf289d5f73456a14709daa91aa382b5de3c645e99c39f28c7c8e57c1e7bd99cfd6622acb08c0f47d84d3ac6766721f12344aa33f572d3041bbc81799be45ae2e3d6f3c84239425ce317be634ce
+1ac9d6e981d4f8d61a17e53b4be67442b78ad0bb8cd4d54e4b9dbd5ab9242e8fc08134d3ab7b16f0a344eae4693b832488db962f32874e2df665b72b56ac53ab76bb4492302e36210fe762ea56feee272eecae7b6eaaee02869bbad419c91b2de7dd93db
+cb0944e3b14c7cc54c31cceed1a9406c2f1c1d802199b25d282d77e74b6a84b97c78d41703268bd3cd565bb9e8b3c5bffc2e292b0a48921066eda9a5e77a8e57d7b9116aa4d9675718ff96be342ed117efffec4bba7ce526b83152a735b9356010a4ebb4
+6d5126422adb4d1262bfcfe466429149c3803c06aafe44d277e2a9b1687fd1afec859279770b42b18b03c0b06c71226408ed88ccd353b4398b76989547a629eb2db9c13c99ff0ed13e2283b4729b69082c10e60d248b85022e27ce36d5d830e8ff9b3744
+6ed586e8941d4341e59e6783e2eaed5e7b0aac5dd48a733e6deb156ed7bdb33f6d13799e01e9976ce498f9a4d8fe0ea87ac416fb4db924afb5b252cc2787d2ea96ee5faaeb5d6eaf8ab4b4aa56c1a5ee53b5f837aae27f0ae1dbc7df3384df3b57f4edd5
+62b6b593901a2dfdb7b698b9f537504b030414000200080000002102e9278183ee00000010020000130000005b436f6e74656e745f54797065735d2e786d6cad914d4ec3301085af62795bc54e5920849274012cf959708191334e2ce21fd993aa9c8d05
+47e20a4cd382102a48486c2cd9efcdfb66c66f2fafcd66e727b1c55c5c0cad5cab5a0a0c26f62e0cad9cc9561772d3358fcf098b606b28ad1c89d2a5d6c58ce8a1a89830b06263f6407ccd834e609e60407d56d7e7dac44018a8a27d86ec9a6bb4304f24
+6e76fc7cc0669c8a145707e39ed54a486972068875bd0dfd374a752428ae5c3c6574a9acd820853e8958a41f091f85f7bc89ec7a140f90e90e3cdb34f198f8f55cabdfc34eb41bad7506fb6866cf256a8959fd097a0b81e7cdff833e867d76a097ffedde
+01504b010214001400020008000000210201159325ae000000270100000b00000000000000000000000000000000005f72656c732f2e72656c73504b01021400140002000800000021027f624aeb730000007b0000001c00000000000000000000000000
+d70000007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01021400140002000800000021020a5d705ea60000000c0100002700000000000000000000000000840100007468656d652f7468656d652f5f72656c732f7468656d
+654d616e616765722e786d6c2e72656c73504b01021400140002000800000021026d52debf9f050000fd1b000016000000000000000000000000006f0200007468656d652f7468656d652f7468656d65312e786d6c504b01021400140002000800000021
+02e9278183ee000000100200001300000000000000000000000000420800005b436f6e74656e745f54797065735d2e786d6c504b050600000000050005005d010000610900000000}{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e
+302220656e636f64696e673d227574662d38223f3e3c613a636c724d617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d61696e22206267313d22
+6c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d226163
+63656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b22202f3e}}</RtfText>
+    <IsLandscape>false</IsLandscape>
+  </PrintoutConfig>
+  <IsReadonlyDescripiton>false</IsReadonlyDescripiton>
+  <IsAttachedToApplication>false</IsAttachedToApplication>
+  <MeasurementDataInEvaluationTable>true</MeasurementDataInEvaluationTable>
+  <CompoundColumnNaming>ByFormula</CompoundColumnNaming>
+  <CreatedOnDefaultsID>0</CreatedOnDefaultsID>
+  <IndividualCompoundValues>false</IndividualCompoundValues>
+  <IsSubLayerSpec>false</IsSubLayerSpec>
+</ColumnsSpecification>

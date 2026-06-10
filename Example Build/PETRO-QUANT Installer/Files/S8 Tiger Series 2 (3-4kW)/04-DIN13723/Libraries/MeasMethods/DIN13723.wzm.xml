@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryResExchange>
+  <WZM>
+    <DataFormat Type="Real" Description="mg/l"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="mg/l"></Unit><ScaleFactor Use="true" Value="1000000"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <DataFormat Type="Real" Description="Percent"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="%"></Unit><ScaleFactor Use="true" Value="100"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <DataFormat Type="Integer" Description="Integer">
+      <FormatC Use="True" Value="%i" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="String" Description="String">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Boolean" Description="Boolean">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Date" Description="Date and time">
+      <FormatC Use="True" Value="%c" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Date" Description="Time Span">
+      <FormatC Use="True" Value="%H:%M:%S" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Char" Description="Char">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Empty" Description="Empty">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Real" Description="Real">
+      <FormatC Use="True" Value="%g" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+      <DigitMode Mode="Digits" DigitsLeft="0" DigitsRight="0"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat><DataFormat Type="Real" Description="Fixed Decimals"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="mg/kg"></Unit><ScaleFactor Use="true" Value="100000"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat><DataFormat Type="Real" Description="mg/l"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="mg/l"></Unit><ScaleFactor Use="true" Value="100000"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat><DataFormat Type="Real" Description="mg/l"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="mg/l"></Unit><ScaleFactor Use="true" Value="1000000"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <Threshold Value="0.001" Trace="mg/l" Major="Percent" />
+    <ColElementOrder Type="Atomic" />
+    <RowOrder Type="SortAsc" ColName="Sample" />
+    
+    
+    
+    
+  <Database OldName="Name" NewName="Sample" Decimals="0" ColOrder="0" Unit="" /><Database OldName="SampleMeasureDate" NewName="Date" Decimals="0" ColOrder="1" Unit="" /><Database OldName="CalibrationMethod" NewName="Application" Decimals="0" ColOrder="2" Unit="" /><Element OldName="Pb" NewName="Pb" Z="82" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="1" /></WZM>
+</QueryResExchange>

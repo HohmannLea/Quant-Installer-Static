@@ -1,0 +1,6 @@
+#Loader specimen list version=2
+#Position	TemplateName	Children	Type	Color	Diameter	MeasMode	Input1	Input2	Input3	Input4	Input5	Input6	Input7	Input8	Input9
+[]	PETRO-QUANT4Be	0	Single	Yellow	_40mm	RoutineMeasurement	QCBe-CON S21&K&Sb 100 ppm	QCBe-CON S21&K&Sb 100 ppm	0.88	7	3.5	
+[]	PETRO-QUANT4Be	0	Single	White	_40mm	RoutineMeasurement	QCBe-Paraffin PETRO-QUANT4Be	QCBe-Paraffin PETRO-QUANT4Be	0.86	7	3.5	
+[]	PETRO-QUANT4Be	0	Single	Yellow	_40mm	RoutineMeasurement	QCBe-XRS1 PETRO-QUANT4Be	QCBe-XRS1 PETRO-QUANT4Be	0.85	7	3.5	
+[]	PETRO-QUANT4Be	0	Single	Yellow	_40mm	RoutineMeasurement	QCBe-XRS2 PETRO-QUANT4Be	QCBe-XRS2 PETRO-QUANT4Be	0.86	7	3.5	
