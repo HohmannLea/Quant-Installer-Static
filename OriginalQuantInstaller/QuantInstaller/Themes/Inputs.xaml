@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="TextboxStyle"
+           TargetType="TextBox">
+
+        <Setter Property="FontFamily"
+                Value="/Fonts/#Roboto-Light" />
+        <Setter Property="FontSize"
+                Value="14" />
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="HorizontalContentAlignment"
+                Value="Left" />
+        <Setter Property="VerticalContentAlignment"
+                Value="Top" />
+        <!--<Setter Property="Padding"
+                Value="5" />-->
+        <!--<Setter Property="Background"
+            Value="#494949" />
+    <Setter Property="Foreground" 
+            Value="White" />-->
+        <Setter Property="BorderBrush"
+            Value="Black" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="TextWrapping"
+                Value="Wrap" />
+    </Style>
+</ResourceDictionary>
