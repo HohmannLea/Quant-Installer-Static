@@ -26,10 +26,13 @@ namespace BrukerAXS.QuantInstaller
             string targetHTMLfolder = "c:\\ProgramData\\Bruker AXS Manuals";
 
             //Determine the path to install the solution files.
-            if (instrument.IndexOf("Series 1", StringComparison.OrdinalIgnoreCase) >= 0
-                || instrument.IndexOf("Series 2", StringComparison.OrdinalIgnoreCase) >= 0
+            bool useBrukerAxsPath = instrument.IndexOf("Series 3", StringComparison.OrdinalIgnoreCase) >= 0
                 || instrument.IndexOf("Puma", StringComparison.OrdinalIgnoreCase) >= 0
-                || instrument.IndexOf("Jaguar", StringComparison.OrdinalIgnoreCase) >= 0)
+                || instrument.IndexOf("Jaguar", StringComparison.OrdinalIgnoreCase) >= 0
+                || instrument.IndexOf("Polar", StringComparison.OrdinalIgnoreCase) >= 0;
+
+            if (!useBrukerAxsPath && (instrument.IndexOf("Series 1", StringComparison.OrdinalIgnoreCase) >= 0
+                || instrument.IndexOf("Series 2", StringComparison.OrdinalIgnoreCase) >= 0))
             {
                 object spectraPath = Registry.GetValue("HKEY_CURRENT_USER\\Software\\SOCABIM\\Spectra Plus", "Spectra Plus Path", null);
                 if (spectraPath == null)
