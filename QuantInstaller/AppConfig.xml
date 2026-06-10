@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+CONFIGURATION NOTES
+
+::logoPath::
+The relative path from the .exe file to the custom logo file. If you place it in the img folder, then just enter "img\logo-file-name.jpg"
+Custom logos must be bitmap files (png, jpg, bmp etc). Any other kind of file will cause the Bruker logo to be displayed as the fall-back default option.
+
+::titleText::
+This is the title displayed immediately below the logo.
+If left blank, "Solution Installer" will be displayed as the default, fall-back option.
+
+::dirSpectraElements::
+The default installation path for Spectra.Elements based instruments.
+This should be left as it is.
+
+::dirLogFile::
+The directory where the solution installation log file should be saved.
+
+-->
+<AppConfig>
+  <ConfigItem Name="logoPath" Value="" />
+  <ConfigItem Name="titleText" Value="" />
+  <ConfigItem Name="dirSpectraElements" Value="C:\ProgramData\Bruker AXS\" />
+  <ConfigItem Name="dirLogFile" Value="C:\ProgramData\Bruker AXS\" />
+</AppConfig>

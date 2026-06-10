@@ -1,0 +1,68 @@
+﻿<Page x:Class="BrukerAXS.QuantInstaller.Solution"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BrukerAXS.QuantInstaller"
+      mc:Ignorable="d"
+      d:DesignHeight="680"
+      d:DesignWidth="800"
+       Title="Select Method"
+      Margin="10,50,10,10">
+    
+    <Page.Resources>
+        <Style BasedOn="{StaticResource ButtonTheme}"
+               TargetType="Button" />
+        <Style BasedOn="{StaticResource MenuButtonTheme}"
+               TargetType="RadioButton" />
+        <Style BasedOn="{StaticResource LabelStyle}"
+               TargetType="Label" />
+        <Style BasedOn="{StaticResource TextboxStyle}"
+               TargetType="TextBox" />
+        <Style BasedOn="{StaticResource TextBlockStyle}"
+               TargetType="TextBlock" />
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+       <TextBlock x:Name="txtSolutionName" 
+                   Grid.Row="0"
+                   FontFamily="/Fonts/#Roboto-Light"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Margin="0,0,0,10" />
+
+        <TextBlock x:Name="txtDescription"
+                   Grid.Row="1"
+                   FontFamily="/Fonts/#Roboto-Light"
+                   FontSize="14"
+                   FontWeight="Regular"
+                   TextWrapping="Wrap"
+                   Margin="0,0,0,10"/>
+
+       <ScrollViewer VerticalScrollBarVisibility="Auto"
+                    HorizontalScrollBarVisibility="Disabled"
+                    Grid.Row="2"
+                    Height="520">
+
+           <WrapPanel x:Name="Methods"
+                     Orientation="Horizontal"
+                     Margin="0,10,0,0"
+                     Width="780">
+           </WrapPanel>
+
+       </ScrollViewer>
+
+
+
+    </Grid>
+
+</Page>
