@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryResExchange>
+  <WZM>
+    <DataFormat Type="Real" Description="PPM">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="True" Value="PPM" />
+      <ScaleFactor Use="True" Value="1000000." />
+      <DigitMode Mode="Decimals" DigitsLeft="10" DigitsRight="0"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat>
+    <DataFormat Type="Real" Description="Percent">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="True" Value="%" />
+      <ScaleFactor Use="True" Value="100." />
+      <DigitMode Mode="Decimals" DigitsLeft="15" DigitsRight="2"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat>
+    <DataFormat Type="Integer" Description="Integer">
+      <FormatC Use="True" Value="%i" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="String" Description="String">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Boolean" Description="Boolean">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Date" Description="Date and time">
+      <FormatC Use="True" Value="%c" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Date" Description="Time Span">
+      <FormatC Use="True" Value="%H:%M:%S" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Char" Description="Char">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Empty" Description="Empty">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Real" Description="Real">
+      <FormatC Use="True" Value="%g" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+      <DigitMode Mode="Digits" DigitsLeft="0" DigitsRight="0"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat>
+    <DataFormat Type="Real" Description="Concentration">
+      <FormatC Use="False" Value=""></FormatC>
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="true" Value="%"></Unit>
+      <ScaleFactor Use="true" Value="100"></ScaleFactor>
+      <DigitMode Mode="Digits" DigitsLeft="3" DigitsRight="3"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat>
+    <DataFormat Type="Real" Description="Concentration">
+      <FormatC Use="False" Value=""></FormatC>
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="true" Value="PPM"></Unit>
+      <ScaleFactor Use="true" Value="1000000"></ScaleFactor>
+      <DigitMode Mode="Digits" DigitsLeft="3" DigitsRight="3"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat><DataFormat Type="Real" Description="Concentration"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="mg/kg"></Unit><ScaleFactor Use="true" Value="100000"></ScaleFactor><DigitMode Mode="Digits" DigitsLeft="3" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <Threshold Value="0.001" Trace="PPM" Major="Percent" />
+    <ColElementOrder Type="Atomic" />
+    <RowOrder Type="SortAsc" ColName="Sample" />
+    <User OldName="Density" NewName="Density" Decimals="4" ColOrder="23" Unit="" Format="String" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <Database OldName="Name" NewName="Sample" Decimals="0" ColOrder="0" Unit="" Format="String" /><Database OldName="SampleMeasureDate" NewName="Date" Decimals="0" ColOrder="1" Unit="" Format="Date and time" /><Database OldName="CalibrationMethod" NewName="Application" Decimals="0" ColOrder="2" Unit="" Format="String" /><Element OldName="Mg" NewName="Mg" Z="12" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="4" ColOrder="3" ColElementOrder="1" /><Element OldName="P" NewName="P" Z="15" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="4" ColOrder="3" ColElementOrder="2" /><Element OldName="S" NewName="S" Z="16" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="4" ColOrder="3" ColElementOrder="3" /><Element OldName="Ca" NewName="Ca" Z="20" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="4" ColOrder="3" ColElementOrder="4" /><Element OldName="Zn" NewName="Zn" Z="30" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="4" ColOrder="3" ColElementOrder="5" /><Element OldName="Na" NewName="Na" Z="11" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="6" /><Element OldName="Al" NewName="Al" Z="13" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="7" /><Element OldName="Si" NewName="Si" Z="14" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="8" /><Element OldName="Cl" NewName="Cl" Z="17" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="9" /><Element OldName="K" NewName="K" Z="19" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="10" /><Element OldName="Cr" NewName="Cr" Z="24" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="11" /><Element OldName="Fe" NewName="Fe" Z="26" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="12" /><Element OldName="Ni" NewName="Ni" Z="28" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="13" /><Element OldName="Cu" NewName="Cu" Z="29" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="14" /><Element OldName="Mo" NewName="Mo" Z="42" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="15" /><Element OldName="Sn" NewName="Sn" Z="50" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="16" /><Element OldName="Ba" NewName="Ba" Z="56" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="17" /><Element OldName="Pb" NewName="Pb" Z="82" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="18" /><Element OldName="O" NewName="O" Z="8" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="1" ColOrder="3" ColElementOrder="19" /><Element OldName="Compton" NewName="Compton" Z="98" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="2" ColOrder="3" ColElementOrder="0" /></WZM>
+</QueryResExchange>

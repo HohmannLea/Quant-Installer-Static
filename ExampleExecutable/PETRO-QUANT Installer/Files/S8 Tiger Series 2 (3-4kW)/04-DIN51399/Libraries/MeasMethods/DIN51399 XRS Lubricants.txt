@@ -1,0 +1,9 @@
+#DEF=273C9314-02FA-4DCB-6689-114EA2B1B3EF
+1A1	XRS Lubricant 1	DIN51399	use_model	use_model	0	2	3	0,860000	7,000000	3,500000
+1A2	XRS Lubricant 2	DIN51399	use_model	use_model	0	2	3	0,870000	7,000000	3,500000
+1A3	XRS Lubricant 3	DIN51399	use_model	use_model	0	2	3	0,899000	7,000000	3,500000
+1A4	XRS Lubricant 4	DIN51399	use_model	use_model	0	2	3	0,900000	7,000000	3,500000
+1B1	XRS Lubricant 5	DIN51399	use_model	use_model	0	2	3	0,854000	7,000000	3,500000
+1B2	XRS Lubricant 6	DIN51399	use_model	use_model	0	2	3	0,850000	7,000000	3,500000
+1B3	XRS Lubricant 7	DIN51399	use_model	use_model	0	2	3	0,890000	7,000000	3,500000
+1B4	XRS Lubricant 8	DIN51399	use_model	use_model	0	2	3	0,893000	7,000000	3,500000

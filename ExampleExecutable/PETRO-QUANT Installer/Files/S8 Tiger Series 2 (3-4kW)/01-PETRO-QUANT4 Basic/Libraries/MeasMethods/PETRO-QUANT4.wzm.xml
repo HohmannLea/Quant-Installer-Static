@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryResExchange>
+  <WZM>
+    <DataFormat Type="Real" Description="mg/kg"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="mg/kg"></Unit><ScaleFactor Use="true" Value="1000000"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="1"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <DataFormat Type="Real" Description="Percent"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="true" Value="%"></Unit><ScaleFactor Use="true" Value="100"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <DataFormat Type="Integer" Description="Integer">
+      <FormatC Use="True" Value="%i" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="String" Description="String">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Boolean" Description="Boolean">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Date" Description="Date and time">
+      <FormatC Use="True" Value="%c" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Date" Description="Time Span">
+      <FormatC Use="True" Value="%H:%M:%S" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Char" Description="Char">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Empty" Description="Empty">
+      <FormatC Use="False" Value="" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+    </DataFormat>
+    <DataFormat Type="Real" Description="Real">
+      <FormatC Use="True" Value="%g" />
+      <WindowsSettings Use="True"></WindowsSettings>
+      <Unit Use="False" Value="" />
+      <ScaleFactor Use="False" Value="1." />
+      <DigitMode Mode="Digits" DigitsLeft="0" DigitsRight="0"></DigitMode>
+      <LeadingZero Use="False"></LeadingZero>
+    </DataFormat><DataFormat Type="Real" Description="Fixed Decimals"><FormatC Use="False" Value=""></FormatC><WindowsSettings Use="True"></WindowsSettings><Unit Use="false" Value=""></Unit><ScaleFactor Use="true" Value="1"></ScaleFactor><DigitMode Mode="Decimals" DigitsLeft="8" DigitsRight="3"></DigitMode><LeadingZero Use="False"></LeadingZero></DataFormat>
+    <Threshold Value="0.001" Trace="mg/kg" Major="Percent" />
+    <ColElementOrder Type="Atomic" />
+    <RowOrder Type="SortAsc" ColName="Sample" />
+    
+    
+    
+    
+    
+    
+  <Database OldName="Name" NewName="Sample Name" Decimals="0" ColOrder="0" Unit="" /><Database OldName="SampleMeasureDate" NewName="Measurement Finished" Decimals="0" ColOrder="1" Unit="" /><Database OldName="CalibrationMethod" NewName="Calibration Method" Decimals="0" ColOrder="2" Unit="" /><Database OldName="SampleMeasurementOperator" NewName="MeasOperator" Decimals="0" ColOrder="3" Unit="" /><Element OldName="Na" NewName="Na" Z="11" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="1" /><Element OldName="Mg" NewName="Mg" Z="12" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="2" /><Element OldName="Al" NewName="Al" Z="13" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="3" /><Element OldName="Si" NewName="Si" Z="14" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="4" /><Element OldName="P" NewName="P" Z="15" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="5" /><Element OldName="S" NewName="S" Z="16" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="5" ColOrder="4" ColElementOrder="6" /><Element OldName="S" NewName="SO3" Z="16" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="3" ColOrder="4" ColElementOrder="7" /><Element OldName="Cl" NewName="Cl" Z="17" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="8" /><Element OldName="K" NewName="K" Z="19" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="9" /><Element OldName="Ca" NewName="Ca" Z="20" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="10" /><Element OldName="Ti" NewName="Ti" Z="22" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="11" /><Element OldName="V" NewName="V" Z="23" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="12" /><Element OldName="Cr" NewName="Cr" Z="24" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="13" /><Element OldName="Mn" NewName="Mn" Z="25" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="14" /><Element OldName="Fe" NewName="Fe" Z="26" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="15" /><Element OldName="Co" NewName="Co" Z="27" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="16" /><Element OldName="Ni" NewName="Ni" Z="28" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="17" /><Element OldName="Cu" NewName="Cu" Z="29" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="18" /><Element OldName="Zn" NewName="Zn" Z="30" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="19" /><Element OldName="As" NewName="As" Z="33" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="20" /><Element OldName="Br" NewName="Br" Z="35" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="21" /><Element OldName="Zr" NewName="Zr" Z="40" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="22" /><Element OldName="Mo" NewName="Mo" Z="42" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="23" /><Element OldName="Ag" NewName="Ag" Z="47" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="24" /><Element OldName="Cd" NewName="Cd" Z="48" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="25" /><Element OldName="In" NewName="In" Z="49" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="26" /><Element OldName="Sn" NewName="Sn" Z="50" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="27" /><Element OldName="Sb" NewName="Sb" Z="51" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="0" ColOrder="4" ColElementOrder="28" /><Element OldName="Ba" NewName="Ba" Z="56" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="29" /><Element OldName="W" NewName="W" Z="74" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="30" /><Element OldName="Tl" NewName="Tl" Z="81" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="31" /><Element OldName="Pb" NewName="Pb" Z="82" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="32" /><Element OldName="Bi" NewName="Bi" Z="83" TraceOrMajor="Trace" ElementOrCompound="Compound" Decimals="1" ColOrder="4" ColElementOrder="33" /><Element OldName="O" NewName="O" Z="8" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="3" ColOrder="4" ColElementOrder="34" /><Element OldName="C" NewName="CH2" Z="6" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="4" ColOrder="4" ColElementOrder="35" /><Element OldName="Compton" NewName="Compton" Z="98" TraceOrMajor="Major" ElementOrCompound="Compound" Decimals="3" ColOrder="4" ColElementOrder="0" /><Input OldName="Density" NewName="Density" Decimals="2" ColOrder="40" Unit="" Format="Fixed Decimals" /></WZM>
+</QueryResExchange>
