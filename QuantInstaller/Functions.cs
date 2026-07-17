@@ -21,7 +21,7 @@ namespace BrukerAXS.QuantInstaller
             string logFileEntry;
 
             string sourceManualsFolder = $"{Environment.CurrentDirectory}\\Manuals\\{instrument}";
-            string targetManualsFolder = "c:\\ProgramData\\Bruker AXS Solution Manuals";
+            string targetManualsFolder;
             string sourceHtmlFolder = $"{Environment.CurrentDirectory}\\HTML Manuals\\{instrument}";
             string targetHTMLfolder = "c:\\ProgramData\\Bruker AXS Manuals";
 
@@ -30,6 +30,10 @@ namespace BrukerAXS.QuantInstaller
                 || instrument.IndexOf("Puma", StringComparison.OrdinalIgnoreCase) >= 0
                 || instrument.IndexOf("Jaguar", StringComparison.OrdinalIgnoreCase) >= 0
                 || instrument.IndexOf("Polar", StringComparison.OrdinalIgnoreCase) >= 0;
+
+            targetManualsFolder = useBrukerAxsPath
+                ? "c:\\ProgramData\\Bruker AXS\\Manuals"
+                : "c:\\ProgramData\\Bruker AXS Solution Manuals";
 
             if (!useBrukerAxsPath && (instrument.IndexOf("Series 1", StringComparison.OrdinalIgnoreCase) >= 0
                 || instrument.IndexOf("Series 2", StringComparison.OrdinalIgnoreCase) >= 0))
